@@ -36,6 +36,9 @@ class CPUDetails {
                                                                                             CPU.RAM ram = new CPU.RAM();
                                                                                             System.out.println("Processor Cache =" + processor.getCache(p));
                                                                                             System.out.println("RAM Clock speed =" + ram.getClockSpeed(m));
+                                                                                            System.out.println("Price =" + ((p*1000)+(m*10)));
+                                                                                            
+                                                                                            s.close();
                                                                                            } 
                            } 
                                                        
