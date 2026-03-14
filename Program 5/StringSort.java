@@ -25,7 +25,7 @@ public class StringSort {
         choice = scan.nextInt();
 
         switch (choice) {
-            case 1: // Corrected "case1" to "case 1"
+            case 1: 
                 Arrays.sort(strlist);
                 System.out.println(Arrays.toString(strlist));
                 break;
